@@ -20,10 +20,13 @@ public class FinallyTest {
 		catch(Exception ex){
 			System.out.println(ex.toString());
 		}
+		finally {
+		//cleanup code//	
+		
 		System.out.println("Application designed and developed by");
 		System.out.println("Team @ Zoomin");
 		sc.close();
-		
+		}
 	}
 	
 }
