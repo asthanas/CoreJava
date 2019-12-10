@@ -21,7 +21,7 @@ public class FinallyTest {
 			System.out.println(ex.toString());
 		}
 		finally {
-		//cleanup code//	
+		/*cleanup code */
 		
 		System.out.println("Application designed and developed by");
 		System.out.println("Team @ Zoomin");
