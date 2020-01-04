@@ -3,7 +3,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.ListIterator;
+import java.util.Stack;
+import java.util.Vector;
 
 class Employee {
 	int eid;
@@ -116,12 +120,10 @@ public class ListDemo {
 			System.out.println(str1);
 		}
 		System.out.println("-----------");
-		
 		while(listItr.hasPrevious()) {
 			String str1 = listItr.previous();
 			System.out.println(str1);
 		}
-		
 		//Enumeration
 		System.out.println("--------Enumeration---------");
 		Enumeration<String> enm = Collections.enumeration(list2);
@@ -144,6 +146,24 @@ public class ListDemo {
 		
 		list2.addAll(list4);
 		System.out.println("list2 is: "+list2);
+		list2.add(1,"Fionna");
+		System.out.println("list2 is: "+list2);
+		list2.clear();
+		System.out.println("list2 is: "+list2);
 		
-	}
+		Vector<String> vector = new Vector<String>();
+		vector.add("John");
+		vector.add("Jennie");
+		vector.add("Jim");
+		vector.add("Jack");
+		vector.add("Joe");
+		
+		System.out.println(vector);
+		System.out.println(vector.get(2));
+		
+		List list = new ArrayList();
+		list = new Vector();
+		list = new LinkedList();
+		list = new Stack();
+		}
 }
