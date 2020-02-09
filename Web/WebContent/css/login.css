@@ -1,0 +1,50 @@
+#wrapper
+{
+	width:400px;
+	margin:auto;
+	border:1px solid black;
+	border-radius:10px;
+	box-shadow:0px 0px 10px black;
+	margin-top:100px;
+	padding:10px;
+	text-align:center;
+	background:linear-gradient(to right,#34e89e,#0f3443)
+}
+table
+{
+	font-size:20px;
+	
+	padding:10px;
+}
+tr{
+	height:40px;
+}
+td,tr{
+	text-align:center;
+}
+input
+{
+	font-size:20px;
+}
+
+input[type='text'],input[type='password']
+{
+	border-radius:10px;
+}
+input[type='text']:focus,input[type='password']:focus
+{
+	background-color:yellow;
+}
+input[type='submit']
+{
+	background:transparent;
+	border:1px solid black;
+	border-radius:10px;
+	width:140px;
+	padding:7px;
+}
+input[type='submit']:hover
+{
+	background-color:orange;
+	box-shadow:0px 0px 10px orange;
+}
