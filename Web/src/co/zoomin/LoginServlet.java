@@ -39,6 +39,8 @@ public class LoginServlet extends HttpServlet
 	  //get the username and password values
 	  String uid = request.getParameter("uid");
 	  String pwd = request.getParameter("pwd");
+	  
+	  
   	  try {
   		pst.setString(1, uid);
   		pst.setString(2, pwd);
