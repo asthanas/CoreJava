@@ -34,10 +34,11 @@ public class Form4 extends HttpServlet {
 
 		}
 		/*
-		 * Cookie[] cookies = request.getCookies(); for(Cookie c : cookies) { String
-		 * name = c.getName(); String value = c.getValue();
+		 * Cookie[] cookies = request.getCookies(); for(Cookie c : cookies) 
+		 * { 
+		 * Stringmname = c.getName(); 
+		 * String value = c.getValue();
 		 * out.println(name+" - "+value+"<br>");
-		 * 
 		 * }
 		 */
 		out.println("Salary - " + request.getParameter("t6") + "<br>");
