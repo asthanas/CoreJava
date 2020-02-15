@@ -34,7 +34,7 @@ public class ZoominFilter implements Filter {
 		}
 		/*
 		 	PrintWriter out = response.getWriter();
-			out.println("<p style=font-size:40px;text-align:center;color:red;margine-top:100px>Invalid Username/Password </p>");
+			out.println("<p style=font-size:40px;text-align:center;color:red;margine-top:100px>Site Under maintaince  </p>");
 		 */
 	}
 
