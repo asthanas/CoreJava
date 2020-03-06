@@ -1,4 +1,4 @@
-package co.zoomin.configs;
+package co.zoomin.apps;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
